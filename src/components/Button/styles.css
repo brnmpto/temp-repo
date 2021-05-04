@@ -1,0 +1,25 @@
+.button {
+  width: 100%;
+  background: darkblue;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+.button:hover {
+  background: rgb(1, 1, 75);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
